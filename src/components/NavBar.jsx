@@ -9,7 +9,7 @@ const NavBarItem = ({ title, classprops }) => (
 const NavBar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
-  const menuItems = ["About", "Education", "Experience", "Projects", "Achievements", "Extracurricular"]
+  const menuItems = ["Education", "Experience", "Projects", "Achievements", "Extracurricular"]
   return (
     <>
       <header className="text-white">
@@ -19,7 +19,7 @@ const NavBar = () => {
           </a>
           <nav className="md:ml-auto hidden md:flex flex-wrap items-center text-base justify-center">
             {menuItems.map((item, index) => (
-              <NavBarItem key={item + index} title={item} classprops={"mx-2"} />
+              <NavBarItem key={item + index} title={item} classprops={"mx-4"} />
             ))}
 
           </nav>

@@ -7,26 +7,23 @@ const Projects = () => {
     {
       id: 1,
       src: arrayDestructImg,
+      project: "News-connect",
+      techstack: "React.js, Node.js, Express.js, MongoDB",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam mollitia voluptatibus facere explicabo ea quaerat, ab tempora quam veritatis ratione minima rem impedit saepe dicta reprehenderit dolor voluptates sed.",
     },
     {
       id: 2,
       src: reactParallaxImg,
+      project: "News-connect",
+      techstack: "React.js, Node.js, Express.js, MongoDB",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam mollitia voluptatibus rem impedit saepe dicta reprehenderit dolor voluptates sed.",
     },
     {
       id: 3,
       src: navbarImg,
-    },
-    {
-      id: 4,
-      src: reactSmoothImg,
-    },
-    {
-      id: 5,
-      src: installNodeImg,
-    },
-    {
-      id: 6,
-      src: reactWeatherImg,
+      project: "News-connect",
+      techstack: "React.js, Node.js, Express.js, MongoDB",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis .",
     },
   ];
 
@@ -45,14 +42,14 @@ const Projects = () => {
             <div className="flex flex-wrap -m-4">
               {/* <div classNameName="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"> */}
               {/* <div classNameName="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"> */}
-              {projects.map(({ id, src }) => (
-                <div className="p-4 md:w-1/2">
+              {projects.map(({ id, src, project, techstack, description }) => (
+                <div className="p-4 md:w-1/3">
                   <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={src} alt="blog" />
                     <div className="p-6">
-                      <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                      <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                      <h1 className="title-font text-lg font-medium text-white mb-3">{project}</h1>
+                      <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{techstack}</h2>
+                      <p className="leading-relaxed mb-3">{description}</p>
                       <div className="flex items-center flex-wrap ">
                         <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -75,9 +72,6 @@ const Projects = () => {
                     </div>
                   </div>
                 </div>
-
-
-
               ))}
             </div>
           </div>

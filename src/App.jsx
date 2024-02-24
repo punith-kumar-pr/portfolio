@@ -6,7 +6,7 @@ const App = () => {
       <div className='gradient-bg-welcome'>
         <NavBar />
         <Profile />
-        <About />
+        {/* <About /> */}
         <Education />
       </div>
       <div className='gradient-bg-services'>
@@ -19,10 +19,7 @@ const App = () => {
         <Extracurricular />
         <Footer />
       </div>
-
-
     </>
-
   )
 }
 

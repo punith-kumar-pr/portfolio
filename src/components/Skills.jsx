@@ -66,7 +66,7 @@ const Skills = () => {
             <p className="py-6">These are the technologies I've worked with</p>
           </div>
 
-          <div className="w-full grid grid-cols-1 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
             {techs.map(({ id, src, title, style }) => (
               <div
                 key={id}
