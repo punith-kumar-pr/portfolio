@@ -21,17 +21,19 @@ const Profile = () => {
               position in the competitive environment that will challenge me to push my boundaries and expand my knowledge.
             </p>
             <div className="flex justify-center">
-              <button className="inline-flex items-center text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg">
-                <FaLinkedin />
-                &nbsp; Connect
-              </button>
+              <a href="https://www.linkedin.com/in/punith-kumar-pr" target="_blank" >
+                <button className="inline-flex items-center text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg">
+                  <FaLinkedin />
+                  &nbsp; Connect
+                </button>
+              </a>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-3/4 w-7/8 blue-glassmorphism">
             <img className="object-cover p-5 object-center" alt="hero" src={profileImg} />
           </div>
         </div>
-      </section>
+      </section >
     </>
   )
 }

@@ -46,22 +46,22 @@ const Experience = () => {
               <p className="py-6">Check out work experience right here</p>
             </div>
             <div className="flex flex-wrap">
-              {projects.map(({ id, src, role, period, company, place, description }) => (
+              {projects.map(({ role, period, company, place, description }) => (
 
                 <ul className="py-8 flex flex-wrap md:flex-nowrap border-l-2 border-gray-200 border-opacity-60">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col mx-5">
                     <span className="font-semibold text-xl">
                       {role}
                     </span>
-                    <span className="mt-1  text-sm">
+                    <span className="mt-1 text-purple-400 text-sm">
                       {period}
                     </span>
                   </div>
                   <div className="md:flex-grow ">
                     <h2 className="text-2xl font-medium mb-2 ">{company}, {place}</h2>
                     {description.map((item, index) =>
-                      <p key={index} className="leading-relaxed">
-                        {item}
+                      <p key={index} className="text-gray-300 leading-relaxed">
+                        &bull; {item}
                       </p>
                     )}
                     {/* <a className="text-indigo-500 inline-flex items-center mt-4">Learn More

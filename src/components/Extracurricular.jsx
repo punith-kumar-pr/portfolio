@@ -1,20 +1,33 @@
 import React from 'react'
-import { arrayDestructImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg } from "../assets/portfolio"
+import { iotClubImg } from "../assets/portfolio"
 
 const Extracurricular = () => {
 
-  const projects = [
+  const activities = [
     {
       id: 1,
-      src: arrayDestructImg,
+      title: "Lead",
+      src: iotClubImg,
+      alt: "Iot Club logo",
+      name: "IoT Innovation Club, DSCE",
+      period: "Dec 2021 - present",
+      description:
+        [
+          "The IoT Club in DSCE endeavours to teach students about IoT and get them interested in innovation and research.",
+          "As a lead of this club, I conducted 10+ workshops on Arduino, ESP32, etc."
+        ]
     },
     {
       id: 2,
-      src: reactParallaxImg,
-    },
-    {
-      id: 3,
-      src: navbarImg,
+      title: "Volunteer",
+      src: "",
+      name: "National Service Scheme (NSS), DSCE",
+      period: "May 2022 - present",
+      description:
+        [
+          "Organised many awareness & social related programs to society and students.",
+          "Organised camps, worked at govt. schools and remote areas"
+        ]
     },
 
   ];
@@ -30,16 +43,29 @@ const Extracurricular = () => {
               <p className="py-6">Some extra things</p>
             </div>
             <div className="flex flex-wrap -m-4">
-              {projects.map(({ id, src }) => (
-                <div className="xl:w-1/3 md:w-1/2 p-4 ">
+              {activities.map(({ id, title, src, name, alt, period, description }) => (
+                <div className="xl:w-1/2 md:w-1/2 p-4 ">
                   <div className="white-glassmorphism p-6 rounded-lg">
                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-6 h-6" viewBox="0 0 24 24">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                      </svg>
+                      <img src={src} alt={alt} className='rounded-2xl' />
+
                     </div>
-                    <h2 className="text-lg text-white-900 font-medium title-font mb-2">Shooting Stars</h2>
-                    <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
+                    <h2 className="text-lg text-white-900 font-medium title-font">
+                      {title}
+                    </h2>
+                    <span className="text-purple-400 text-sm">
+                      {period}
+                    </span>
+                    <h2 className="mt-2 text-lg text-gray-300 font-medium title-font mb-2">
+                      {name}
+                    </h2>
+                    <p className="leading-relaxed text-gray-400 text-base">
+                      {description.map((item) =>
+                        <p className="leading-relaxed">
+                          &bull; {item}
+                        </p>
+                      )}
+                    </p>
                   </div>
                 </div>
               ))}

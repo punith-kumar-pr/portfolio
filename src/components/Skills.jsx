@@ -1,6 +1,6 @@
 import React from "react";
 
-import { html, css, javascript, reactImage, tailwind, nextjs, graphql, github } from '../assets/skills';
+import { html, css, javascript, reactImage, tailwind, nextjs, graphql, github, cpp, java, mongodb, nodejs, postgresql, python, redux, springboot } from '../assets/skills';
 
 const Skills = () => {
   const techs = [
@@ -51,6 +51,54 @@ const Skills = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: cpp,
+      title: "C++",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 10,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 11,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 12,
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-green-400",
+    },
+    {
+      id: 13,
+      src: postgresql,
+      title: "Postgre",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 14,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 13,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 13,
+      src: springboot,
+      title: "SpringBoot",
+      style: "shadow-green-400",
     },
   ];
 
