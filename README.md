@@ -1,8 +1,35 @@
-# React + Vite
+# Name of Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+<!-- <!-- TODO: Add a screenshot of the live project. -->
+    1. View this site link [link](https://punith-kumar-pr.netlify.app)
+    2. Describe your overall experience in a couple of sentences.
+    3. List a few specific technical things that you learned or improved on.
+    4. Share any other tips or guidance for others attempting this or something similar.
+
+
+### Built With
+
+- React.js via vite
+- Tailwindcss
+
+## Features
+
+<!-- TODO: List what specific 'user problems' that this application solves. -->
+
+## Contact
+
+<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+
+## Acknowledgements
+
+<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
