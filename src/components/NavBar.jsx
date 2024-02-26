@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import logo from '../assets/Punith_P_logo.jpeg';
 
 const NavBarItem = ({ title, classprops }) => (
   <p className={`cursor-pointer ${classprops}`}>{title}</p>
@@ -15,11 +16,12 @@ const NavBar = () => {
       <header className="text-white">
         <div className="container mx-auto flex flex-wrap p-5 w-3/4 md:w-full justify-between">
           <a className="flex font-medium mb-4 items-center md:mb-0 md:mx-0 -mx-3">
-            <p className='text-3xl hover:'>Punith</p>
+            <img src={logo} alt="logo" className='w-10 rounded-full'/>
+            <p className='text-3xl hover:'>&nbsp;Punith</p>
           </a>
           <nav className="md:ml-auto hidden md:flex flex-wrap items-center text-base justify-center">
             {menuItems.map((item, index) => (
-              <NavBarItem key={item + index} title={item} classprops={"mx-4"} />
+              <NavBarItem key={item + index} title={item} classprops={"mx-3"} />
             ))}
 
           </nav>

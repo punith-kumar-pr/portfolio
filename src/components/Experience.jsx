@@ -57,7 +57,7 @@ const Experience = () => {
                       {period}
                     </span>
                   </div>
-                  <div className="md:flex-grow ">
+                  <div className="md:flex-grow md:ml-0 ml-5">
                     <h2 className="text-2xl font-medium mb-2 ">{company}, {place}</h2>
                     {description.map((item, index) =>
                       <p key={index} className="text-gray-300 leading-relaxed">
