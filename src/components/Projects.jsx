@@ -14,9 +14,9 @@ const Projects = () => {
     {
       id: 2,
       src: reactParallaxImg,
-      project: "News-connect",
-      techstack: "React.js, Node.js, Express.js, MongoDB",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam mollitia voluptatibus rem impedit saepe dicta reprehenderit dolor voluptates sed.",
+      project: "JWT Authentication",
+      techstack: "React.js, Node.js, Express.js, MongoDB, JWT Tokens, Tailwindcss",
+      description: "This is demonstrates how to secure a web application by user authentication using JWT tokens, and login in via \"User Login\" Page and register via \"Register Page\".",
     },
     {
       id: 3,
@@ -37,11 +37,9 @@ const Projects = () => {
               <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                 Projects
               </p>
-              <p className="py-6">Check out some of my work right here</p>
+              <p className="py-6">Check out some of my work below</p>
             </div>
             <div className="flex flex-wrap -m-4">
-              {/* <div classNameName="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"> */}
-              {/* <div classNameName="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"> */}
               {projects.map(({ id, src, project, techstack, description }) => (
                 <div className="p-4 md:w-1/3">
                   <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -51,7 +49,7 @@ const Projects = () => {
                       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{techstack}</h2>
                       <p className="leading-relaxed mb-3">{description}</p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Code
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
