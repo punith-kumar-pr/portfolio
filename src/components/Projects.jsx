@@ -1,6 +1,6 @@
 import React from "react";
 
-import { arrayDestructImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg } from "../assets/portfolio"
+import { arrayDestructImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg, lipiImg, topologyImg } from "../assets/portfolio"
 
 const Projects = () => {
   const projects = [
@@ -8,22 +8,36 @@ const Projects = () => {
       id: 1,
       src: arrayDestructImg,
       project: "News-connect",
-      techstack: "React.js, Node.js, Express.js, MongoDB",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis numquam mollitia voluptatibus facere explicabo ea quaerat, ab tempora quam veritatis ratione minima rem impedit saepe dicta reprehenderit dolor voluptates sed.",
+      techstack: "React.js, Node.js, Express.js, MongoDB, Web-scrapping",
+      description: "This Application helps users to search the articles based on the keyword and also use time period filtering for articles. Also, this is a platform to share the news to this app's users community.",
     },
     {
       id: 2,
       src: reactParallaxImg,
       project: "JWT Authentication",
       techstack: "React.js, Node.js, Express.js, MongoDB, JWT Tokens, Tailwindcss",
-      description: "This is demonstrates how to secure a web application by user authentication using JWT tokens, and login in via \"User Login\" Page and register via \"Register Page\".",
+      description: "This demonstrates how to secure a web application by user authentication using JWT tokens, and login in via \"User Login\" Page and register via \"Register Page\".",
     },
     {
       id: 3,
-      src: navbarImg,
-      project: "News-connect",
-      techstack: "React.js, Node.js, Express.js, MongoDB",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis .",
+      src: lipiImg,
+      project: "Lipi",
+      techstack: "Node.js, Express.js, MongoDB, ejs, Tessaract, Google Translate Api",
+      description: "Lipi is a Application where a user can upload the photos of a various scripts of different languages (typed, hand-written or manuscripts), and it extracts the text from the script; Also user can translate into various other languages.",
+    },
+    {
+      id: 4,
+      src: lipiImg,
+      project: "IoT based two side safety vehicles",
+      techstack: "Node.js, Express.js, MongoDB, ejs, Tessaract, Google Translate Api",
+      description: "Lipi is a Application where a user can upload the photos of a various scripts of different languages (typed, hand-written or manuscripts), and it extracts the text from the script; Also user can translate into various other languages.",
+    },
+    {
+      id: 5,
+      src: topologyImg,
+      project: "College Network Design",
+      techstack: "Cisco Packet Tracer, Computer Networks",
+      description: "The is a simulation of a college network done in cisco packet tracer. Some features include: DHCP, RIP, DNS, Web server(HTTP), Secure Routing",
     },
   ];
 

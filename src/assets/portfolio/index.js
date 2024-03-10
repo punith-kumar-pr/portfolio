@@ -6,3 +6,5 @@ export { default as reactSmoothImg } from "./reactSmooth.jpg";
 export { default as reactWeatherImg } from "./reactWeather.jpg";
 export { default as profileImg } from "./profile.jpg"
 export { default as iotClubImg } from "./iot_club.jpeg"
+export { default as lipiImg } from "./lipi.png"
+export { default as topologyImg } from "./topology.png"
