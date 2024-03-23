@@ -1,4 +1,4 @@
-import { NavBar, Profile, Education, Skills, Projects, About, Experinence, Achievements, Extracurricular, SocialLinks, Footer } from './components'
+import { NavBar, Profile, Education, Skills, Projects, About, Experinence, Achievements, Extracurricular, SocialLinks,Contact ,Footer } from './components'
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
         {/* <Achievements /> */}
         <Extracurricular />
         <SocialLinks />
+        <Contact />
         <Footer />
       </div>
     </>
