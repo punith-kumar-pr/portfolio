@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-scroll"
 import logo from '../assets/Punith_P_logo.jpeg';
 
 const NavBarItem = ({ title, classprops }) => (
+  <Link to= {title.toLowerCase()} smooth duration={500}>
   <p className={`cursor-pointer ${classprops}`}>{title}</p>
+  </Link>
 );
 
 const NavBar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
-  const menuItems = ["Education", "Experience", "Projects", "Achievements", "Extracurricular"]
+  const menuItems = ["Education", "Skills", "Projects", "Experience", "Extracurricular", "Contact"]
   return (
     <>
       <header className="text-white">

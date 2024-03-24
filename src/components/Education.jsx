@@ -38,7 +38,7 @@ const Education = () => {
   ]
   return (
     <>
-      <section className="text-white mx-10">
+      <section  name="education" className="text-white mx-10">
         <div className="container px-5 py-24 mx-auto">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Education

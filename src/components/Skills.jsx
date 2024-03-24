@@ -104,7 +104,7 @@ const Skills = () => {
 
   return (
     // Add these below 2nd line for good styleing
-    <section className="text-white mx-10">
+    <section name="skills" className="text-white mx-10">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap">
           <div>

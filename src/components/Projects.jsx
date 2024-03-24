@@ -43,7 +43,7 @@ const Projects = () => {
 
   return (
     <>
-      <section className="mx-10 text-white">
+      <section name="projects" className="mx-10 text-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap">
             {/* <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"> */}
