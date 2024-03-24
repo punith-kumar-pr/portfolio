@@ -53,7 +53,7 @@ const Experience = () => {
                     <span className="font-semibold text-xl">
                       {role}
                     </span>
-                    <span className="mt-1 text-purple-400 text-sm">
+                    <span className="mt-1 text-indigo-500 text-sm">
                       {period}
                     </span>
                   </div>

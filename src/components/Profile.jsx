@@ -10,9 +10,7 @@ const Profile = () => {
       id: 1,
       child: (
         <>
-
           <FaLinkedin /> &nbsp; Linkedin
-
         </>
       ),
       href: "https://linkedin.com/in/punith-kumar-pr",
@@ -24,7 +22,6 @@ const Profile = () => {
         <>
           <FaGithub /> &nbsp; Github
         </>
-
       ),
       href: "https://github.com/punith-kumar-pr",
     },
@@ -34,8 +31,6 @@ const Profile = () => {
         <>
           <HiOutlineMail /> &nbsp; Mail
         </>
-
-
       ),
       href: "mailto:punithkumarpr03@gmail.com",
     },
@@ -45,7 +40,6 @@ const Profile = () => {
         <>
           <BsFillPersonLinesFill /> &nbsp; Resume
         </>
-
       ),
       href: "/Punith_Kumar_P_R_Resume.pdf",
       style: "rounded-br-md",
@@ -60,7 +54,6 @@ const Profile = () => {
             <h1 className="sm:text-5xl text-3xl mb-4 font-medium">
               Punith Kumar&nbsp;
               <br className="hidden lg:inline-block" />P R
-
             </h1>
             <p className='sm:text-3xl text-2xl mb-8'>
               Software Engineer
@@ -69,7 +62,7 @@ const Profile = () => {
               A Computer Science Engineer eager to contribute to the organisation, enthusiastic about learning new things. Secure a good
               position in the competitive environment that will challenge me to push my boundaries and expand my knowledge.
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center flex-col md:flex-row">
               {links.map(({ id, child, href, download }) => (
                 <a
                   href={href}
@@ -77,12 +70,11 @@ const Profile = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className="inline-flex items-center text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg">
+                  <button className="inline-flex items-center text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-blue-800 rounded text-lg mx-1 mb-2 md:mb-0">
                     {child}
                   </button>
                 </a>
               ))}
-
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-3/4 w-7/8 blue-glassmorphism">

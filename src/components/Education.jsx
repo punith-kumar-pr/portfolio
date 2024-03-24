@@ -49,13 +49,13 @@ const Education = () => {
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 B.E - Computer Science & Engineering
               </h2>
-              <p className="text-purple-500 inline-flex items-center text-lg">
+              <p className="text-indigo-500 inline-flex items-center text-lg">
                 &bull; 8.94 CGPA
               </p>
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 Dayananda Sagar College of Engineering, Bengaluru
               </h2>
-              <p className="text-purple-500 inline-flex items-center">
+              <p className="text-indigo-500 inline-flex items-center">
                 &bull; 2020 - 2024
               </p>
             </div>
@@ -64,13 +64,13 @@ const Education = () => {
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 12th
               </h2>
-              <p className="text-purple-500 inline-flex items-center text-lg">
+              <p className="text-indigo-500 inline-flex items-center text-lg">
                 &bull; 91.33%
               </p>
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 M.S PU College, Kolar
               </h2>
-              <p className="text-purple-500 inline-flex items-center">
+              <p className="text-indigo-500 inline-flex items-center">
                 &bull; 2018 - 2020
               </p>
             </div>
@@ -79,13 +79,13 @@ const Education = () => {
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 SSLC (10th)
               </h2>
-              <p className="text-purple-500 inline-flex items-center text-lg">
+              <p className="text-indigo-500 inline-flex items-center text-lg">
                 &bull; 93.12%
               </p>
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 Sainik Public School, Kolar
               </h2>
-              <p className="text-purple-500 inline-flex items-center">
+              <p className="text-indigo-500 inline-flex items-center">
                 &bull; 2017 - 2018
               </p>
             </div>
