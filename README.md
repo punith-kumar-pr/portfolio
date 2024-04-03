@@ -17,6 +17,7 @@
 
 ### Built With
 
+- Node - version 20.11.1
 - React.js via vite
 - Tailwindcss
 
