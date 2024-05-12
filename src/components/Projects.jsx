@@ -7,6 +7,14 @@ const Projects = () => {
     {
       id: 1,
       src: arrayDestructImg,
+      project: "AR Sculp",
+      techstack: "Augmented Reality, Unity 3D, C#, Photogrammetry, Blender, 3D modelling",
+      description: " This is an android AR application used to visualize the Virtually restored Broken Sculpture, in which the missing parts are Augmented in the right place and can be viewed in 3D with mobile camera. Research Paper: \"Application of Augmented Reality for Virtual Reconstruction and Restoration of Archaelogical Artifacts\".",
+      link: "https://drive.google.com/file/d/1agJV_BsToWIeTzJKUvdY4fGeYt9Kluby/view?usp=sharing"
+    },
+    {
+      id: 6,
+      src: arrayDestructImg,
       project: "News-connect",
       techstack: "React.js, Node.js, Express.js, MongoDB, Web-scrapping",
       description: "This Application helps users to search the articles based on the keyword and also use time period filtering for articles. Also, this is a platform to share the news to this app's users community.",

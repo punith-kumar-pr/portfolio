@@ -13,7 +13,7 @@ const NavBarItem = ({ title, classprops }) => (
 const NavBar = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false)
-  const menuItems = ["Education", "Skills", "Projects", "Experience", "Extracurricular", "Contact"]
+  const menuItems = ["Education", "Skills", "Projects", "Experience", "Achievements", "Extracurricular", "Contact"]
   return (
     <>
       <header className="text-white">

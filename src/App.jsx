@@ -15,7 +15,7 @@ const App = () => {
         <Experinence />
       </div>
       <div className='gradient-bg-transactions'>
-        {/* <Achievements /> */}
+        <Achievements />
         <Extracurricular />
         <SocialLinks />
         <Contact />
