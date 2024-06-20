@@ -1,12 +1,12 @@
 import React from "react";
 
-import { arrayDestructImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg, lipiImg, topologyImg } from "../assets/portfolio"
+import { ARSculpImg, arrayDestructImg, newsConnectImg, JWTAuthImg, IOTSafetyImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg, lipiImg, topologyImg } from "../assets/portfolio"
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      src: arrayDestructImg,
+      src: ARSculpImg,
       project: "AR Sculp",
       techstack: "Augmented Reality, Unity 3D, C#, Photogrammetry, Blender, 3D modelling",
       description: " This is an android AR application used to visualize the Virtually restored Broken Sculpture, in which the missing parts are Augmented in the right place and can be viewed in 3D with mobile camera. Research Paper: \"Application of Augmented Reality for Virtual Reconstruction and Restoration of Archaelogical Artifacts\".",
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: arrayDestructImg,
+      src: newsConnectImg,
       project: "News-connect",
       techstack: "React.js, Node.js, Express.js, MongoDB, Web-scrapping",
       description: "This Application helps users to search the articles based on the keyword and also use time period filtering for articles. Also, this is a platform to share the news to this app's users community.",
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      src: reactParallaxImg,
+      src: JWTAuthImg,
       project: "JWT Authentication",
       techstack: "React.js, Node.js, Express.js, MongoDB, JWT Tokens, Tailwindcss",
       description: "This demonstrates how to secure a web application by user authentication using JWT tokens, and login in via \"User Login\" Page and register via \"Register Page\".",
@@ -38,7 +38,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: lipiImg,
+      src: IOTSafetyImg,
       project: "IoT based two side safety vehicles",
       techstack: "Node.js, Express.js, MongoDB, ejs, Tessaract, Google Translate Api",
       description: "Lipi is a Application where a user can upload the photos of a various scripts of different languages (typed, hand-written or manuscripts), and it extracts the text from the script; Also user can translate into various other languages.",
