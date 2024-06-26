@@ -16,6 +16,9 @@ const Footer = () => {
               punithkumarpr03@gmail.com
             </a>
           </p>
+          <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+            Made with React.js and Tailwindcss            
+          </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a href="https://www.facebook.com/profile.php?id=100014648467586" target="_blank" className="ml-3 text-white">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">

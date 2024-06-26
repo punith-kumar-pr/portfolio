@@ -5,26 +5,30 @@ const Experience = () => {
   const projects = [
     {
       id: 1,
-      role: "Associate Engineer",
+      role: "Associate Engineer Intern",
       period: "Jan 2024 - present",
       company: "BT Group (British Telecom)",
       place: "Bengaluru",
       description:
         [
-          "React.js, Spring boot, postgreSQL, etc.",
-          "Currently we started working on a full stack web application."
+          "Java, Spring Boot, React.js, Redux, PostgreSQL, MySQL, MariaDB, Gitlab CI/CD, Docker.",
+"Developed web applications using Java Spring Boot and PostgreSQL and created front-end applications with React.js and styled using TailwindCSS.",
+"Implemented reactive programming (project reactor) to enhance Spring Boot applications.",
+"Containerized applications using Docker, employed Docker-in-Docker (DinD) for Gitlab CI/CD pipelines."
+
         ]
     },
     {
       id: 2,
-      role: "Backend developer",
+      role: "Intern",
       period: "Jun 2022 - Jan 2023",
       company: "Brane Enterprises Pvt. Ltd.",
       place: "Bengaluru",
       description:
         [
-          "Java, Spring boot.",
-          "Analysed and implemented functions required for the existing application."
+          "Java, Spring boot, Postman",
+          "Analysed and implemented functions required for the existing application.", 
+          "Debugging the bugs present in the apps."
         ]
 
     },

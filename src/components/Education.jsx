@@ -20,7 +20,7 @@ const Education = () => {
     {
       name: "Dayananda Sagar College of Engineering, Bengaluru",
       degree: "B.E - Computer Science & Engineering",
-      score: "8.83 CGPA",
+      score: "9.07 CGPA",
       duration: "2020 - 2024"
     },
     {

@@ -64,7 +64,7 @@ const Projects = () => {
               <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                 Projects
               </p>
-              <p className="py-6">Check out some of my work below</p>
+              <p className="py-6">Check out some of my work below and some more on Github.</p>
             </div>
             <div className="flex flex-wrap -m-4">
               {projects.map(({ id, src, project, techstack, description, link }) => (
