@@ -50,7 +50,7 @@ const Education = () => {
                 B.E - Computer Science & Engineering
               </h2>
               <p className="text-indigo-500 inline-flex items-center text-lg">
-                &bull; 8.94 CGPA
+                &bull; 9.07 CGPA
               </p>
               <h2 className="text-lg sm:text-xl font-medium title-font mb-2">
                 Dayananda Sagar College of Engineering, Bengaluru
