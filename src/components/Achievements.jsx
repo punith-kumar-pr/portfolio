@@ -26,7 +26,7 @@ const Achievements = () => {
   ];
   return (
     <>
-      <section name="experience" className="mx-10 text-white">
+      <section name="achievements" className="mx-10 text-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap">
             <div className="pb-8">
