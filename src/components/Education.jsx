@@ -7,10 +7,10 @@ const Schools = ({ item }) => {
         <img src={item.logo} alt={`${item.name} logo`} className="w-10 h-10 mb-4 mr-2 rounded-lg" />
         <h2 className="text-lg sm:text-xl font-medium title-font mb-2">{item.name}</h2>
       </div>
-      <p className="text-indigo-500 inline-flex items-center text-lg"> &bull; {item.duration} </p>
+      <p className="text-indigo-500 inline-flex items-center text-lg mb-2"> &bull; {item.duration} </p>
       <h2 className="text-lg sm:text-xl font-medium title-font mb-2">{item.degree}</h2>
-      <p className="text-indigo-500 inline-flex items-center text-lg">
-        &bull; {item.score}
+      <p className="inline-flex items-center text-lg">
+        Grade - <span className='text-indigo-500'>&nbsp; {item.score}</span>
       </p>
     </div>
   );
@@ -27,14 +27,14 @@ const Education = () => {
     },
     {
       name: "M.S PU College Kolar",
-      degree: "12th",
+      degree: "12th standard",
       score: "91.33%",
       duration: "2018 - 2020",
       logo: msPuLogo
     },
     {
       name: "Sainik Public School, Kolar",
-      degree: "SSLC (10th)",
+      degree: "SSLC (10th standard)",
       score: "93.12%",
       duration: "2017 - 2018",
       logo: spsLogo
