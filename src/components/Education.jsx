@@ -26,7 +26,7 @@ const Education = () => {
       logo: dsceLogo
     },
     {
-      name: "M.S PU College Kolar",
+      name: "M.S PU College, Kolar",
       degree: "12th standard",
       score: "91.33%",
       duration: "2018 - 2020",
