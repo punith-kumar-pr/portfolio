@@ -1,9 +1,3 @@
-export { default as arrayDestructImg } from "./arrayDestruct.jpg";
-export { default as installNodeImg } from "./installNode.jpg";
-export { default as navbarImg } from "./navbar.jpg";
-export { default as reactParallaxImg } from "./reactParallax.jpg";
-export { default as reactSmoothImg } from "./reactSmooth.jpg";
-export { default as reactWeatherImg } from "./reactWeather.jpg";
 export { default as profileImg } from "./profile.jpg"
 export { default as iotClubImg } from "./iot_club.jpeg"
 export { default as lipiImg } from "./lipi.png"
@@ -12,3 +6,4 @@ export { default as newsConnectImg } from "./newsConnect.jpg"
 export { default as ARSculpImg } from "./ARSculp.png"
 export { default as JWTAuthImg } from "./JWTAuth.png"
 export { default as IOTSafetyImg } from "./IOT_Safety.jpg"
+export { default as nssImg } from "./nss_logo.png"

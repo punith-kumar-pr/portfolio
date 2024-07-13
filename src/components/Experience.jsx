@@ -6,7 +6,7 @@ const Experience = () => {
     {
       id: 1,
       role: "Associate Engineer Intern",
-      period: "Jan 2024 - present",
+      period: "Jan 2024 - Jul 2024",
       company: "BT Group (British Telecom)",
       place: "Bengaluru",
       description:

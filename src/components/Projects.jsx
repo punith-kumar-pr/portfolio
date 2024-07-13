@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ARSculpImg, arrayDestructImg, newsConnectImg, JWTAuthImg, IOTSafetyImg, installNodeImg, navbarImg, reactParallaxImg, reactSmoothImg, reactWeatherImg, lipiImg, topologyImg } from "../assets/portfolio"
+import { ARSculpImg, newsConnectImg, JWTAuthImg, IOTSafetyImg, lipiImg, topologyImg } from "../assets/portfolio"
 
 const Projects = () => {
   const projects = [
