@@ -22,7 +22,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <section id="skills" className="text-white mx-10 py-24">
+      <section id="skills" name="skills" className="text-white mx-10 py-24">
         <div className="container mx-auto px-5">
           {/* <h2 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 mb-12">
             Skills
