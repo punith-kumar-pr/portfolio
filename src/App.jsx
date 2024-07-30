@@ -1,4 +1,4 @@
-import { NavBar, Profile, Education, Skills, Projects, About, Experinence, Achievements, Extracurricular, SocialLinks,Contact ,Footer } from './components'
+import { NavBar, Profile, Education, Skills, SkillsB, Projects, About, Experinence, Achievements, Extracurricular, SocialLinks,Contact ,Footer } from './components'
 
 const App = () => {
   return (
@@ -10,7 +10,8 @@ const App = () => {
         <Education />
       </div>
       <div className='gradient-bg-services'>
-        <Skills />
+        {/* <Skills /> */}
+        <SkillsB />
         <Projects />
         <Experinence />
       </div>

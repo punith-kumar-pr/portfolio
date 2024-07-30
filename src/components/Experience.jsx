@@ -46,9 +46,9 @@ const Experience = () => {
               <p className="py-6">Check out work experience right here</p>
             </div>
             <div className="flex flex-wrap">
-              {projects.map(({ role, period, company, place, description }) => (
+              {projects.map(({ id, role, period, company, place, description }) => (
 
-                <ul className="py-8 flex flex-wrap md:flex-nowrap border-l-2 border-gray-200 border-opacity-60">
+                <ul key= {id} className="py-8 flex flex-wrap md:flex-nowrap border-l-2 border-gray-200 border-opacity-60">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col mx-5">
                     <span className="font-semibold text-xl">
                       {role}

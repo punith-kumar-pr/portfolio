@@ -36,9 +36,9 @@ const Achievements = () => {
               <p className="py-6">Not many but some 😁😁</p>
             </div>
             <div className="flex flex-wrap">
-              {achievements.map(({ givenAt, date, award, description }) => (
+              {achievements.map(({ id, givenAt, date, award, description }) => (
 
-                <ul className="py-8 flex flex-wrap md:flex-nowrap border-l-2 border-gray-200 border-opacity-60">
+                <ul key={id} className="py-8 flex flex-wrap md:flex-nowrap border-l-2 border-gray-200 border-opacity-60">
                   <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col mx-5">
                     <span className="font-semibold text-2xl">
                       {award}

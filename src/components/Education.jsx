@@ -2,7 +2,7 @@ import React from 'react'
 import { dsceLogo, msPuLogo, spsLogo } from '../assets/education';
 const Schools = ({ item }) => {
   return (
-    <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+    <div className="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2  border-gray-200 border-opacity-60">
       <div className="flex items-center">
         <img src={item.logo} alt={`${item.name} logo`} className="w-10 h-10 mb-4 mr-2 rounded-lg" />
         <h2 className="text-lg sm:text-xl font-medium title-font mb-2">{item.name}</h2>
