@@ -3,11 +3,11 @@ import React from 'react';
 const skills = [
   {
     category: "Programming Languages",
-    items: ["C++", "Python", "Java", "JavaScript"],
+    items: ["C/C++", "Python", "Java", "JavaScript", "SQL"],
   },
   {
     category: "Frameworks & Libraries",
-    items: ["React", "Node.js", "Express", "Spring Boot"],
+    items: [ "Spring Boot", "React", "Node.js", "Express", "Redux"],
   },
   {
     category: "Databases",
@@ -15,7 +15,7 @@ const skills = [
   },
   {
     category: "Tools & Platforms",
-    items: ["Git", "Docker", "Jenkins"],
+    items: ["Git", "Github", "Docker", "Gitlab CI/CD"],
   },
 ];
 
