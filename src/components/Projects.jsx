@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ARSculpImg, newsConnectImg, JWTAuthImg, IOTSafetyImg, lipiImg, topologyImg } from "../assets/portfolio"
+import { ARSculpImg, newsConnectImg, JWTAuthImg, IOTSafetyImg, lipiImg, topologyImg, moovyImg } from "../assets/portfolio"
 
 const Projects = () => {
   const projects = [
@@ -11,6 +11,14 @@ const Projects = () => {
       techstack: "Augmented Reality, Unity 3D, C#, Photogrammetry, Blender, 3D modelling",
       description: " This is an android AR application used to visualize the Virtually restored Broken Sculpture, in which the missing parts are Augmented in the right place and can be viewed in 3D with mobile camera. Research Paper: \"Application of Augmented Reality for Virtual Reconstruction and Restoration of Archaelogical Artifacts\".",
       link: "https://drive.google.com/file/d/1agJV_BsToWIeTzJKUvdY4fGeYt9Kluby/view?usp=sharing"
+    },
+    {
+      id: 7,
+      src: moovyImg,
+      project: "Moovy",
+      techstack: "Java-21, Spring boot, JPA, SQL, Android",
+      description: "Java Spring Boot server for a movie application, which exposes API endpoints for listing movies, filtering movies based on Genre, advanced search filters, top rated movies. User login, watchlist, watched movies etc. This is an application similar to IMDb to store and provide details about the movies.",
+      link: "https://github.com/punith-kumar-pr/Moovy-server"
     },
     {
       id: 6,
