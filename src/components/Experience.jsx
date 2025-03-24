@@ -4,7 +4,19 @@ const Experience = () => {
 
   const projects = [
     {
-      id: 1,
+      id: 3,
+      role: "Software Engineer",
+      period: "Mar 2025 - Present",
+      company: "Motorola",
+      place: "Bengaluru",
+      description:
+        [
+          "Android Development",
+        ]
+
+    },
+    {
+      id: 2,
       role: "Associate Engineer Intern",
       period: "Jan 2024 - Jul 2024",
       company: "BT Group (British Telecom)",
@@ -19,7 +31,7 @@ const Experience = () => {
         ]
     },
     {
-      id: 2,
+      id: 3,
       role: "Intern",
       period: "Jun 2022 - Jan 2023",
       company: "Brane Enterprises Pvt. Ltd.",

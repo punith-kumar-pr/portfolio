@@ -7,13 +7,13 @@ const App = () => {
         <NavBar />
         <Profile />
         {/* <About /> */}
-        <Education />
+        <Experinence />
       </div>
       <div className='gradient-bg-services'>
+        <Education />
         {/* <Skills /> */}
         <SkillsB />
         <Projects />
-        <Experinence />
       </div>
       <div className='gradient-bg-transactions'>
         <Achievements />
