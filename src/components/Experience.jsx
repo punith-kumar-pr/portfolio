@@ -5,13 +5,15 @@ const Experience = () => {
   const projects = [
     {
       id: 3,
-      role: "Software Engineer",
+      role: "Software Engineer Android",
       period: "Mar 2025 - Present",
       company: "Motorola",
       place: "Bengaluru",
       description:
         [
           "Android Development",
+          "Dimo app - Developing and supporting the Android side requirements",
+          "Dimo is a Brazil exclusive Payments application."
         ]
 
     },
